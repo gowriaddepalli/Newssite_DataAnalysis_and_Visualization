@@ -5,11 +5,11 @@ A python project that scrapes news website data and does analysis based on it.
 - Python 3.6 (Data Processing)
 - Pandas (Data Analysis)
 - BeautifulSoup ( Web Scraping)
-- Matplotlib  (Visualization)
+- Matplotlib, seaborn  (Visualization)
 - Markdown (Documentation)
 - Git( Version Control)
 - Anaconda Jupyter Notebook (IDE)
-
+- NLTK, newspaper (Natural language processing)
 
 ## Project Structure and how to run this project:
 
@@ -20,10 +20,12 @@ project requirements and this too is extensible.
 4. The same is for timezones.txt that contains a list of timezones to be fetched and is extensible as per need.
 5. newsdata.csv is the file containing the processed and structured data extracted using beautifulSoup from the news websites.
 6. You can view the visualizations in the IPython notebook itself.
-7. The dates from which the data can be filtered are configured. The gap kept in the configurable default date is 7 days.
+7. The dates from which the data can be filtered are configured in config.json. The gap kept in the configurable default date is 7 days.
 
 ## Assumptions:
 1. The data quality could be improved more with various filters and edge cases. Limitations of data quality do exists.
+2. The visualizations plotted here are minimilistic and can be improved as per requirement. 
+3. Inline commenting provided to get a detailed explanation of the code.
 
 ## Observations and Issues faced:
 
