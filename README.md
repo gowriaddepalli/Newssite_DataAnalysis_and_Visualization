@@ -2,18 +2,19 @@
 A python project that scrapes news website data and does analysis based on it.
 
 ## Languages/Libraries/Tools used:
+
 - Python 3.6 (Data Processing)
 - Pandas (Data Analysis)
-- BeautifulSoup ( Web Scraping)
-- Matplotlib, seaborn  (Visualization)
+- BeautifulSoup (Web Scraping)
+- Matplotlib, Seaborn  (Visualization)
 - Markdown (Documentation)
-- Git( Version Control)
+- Git (Version Control)
 - Anaconda Jupyter Notebook (IDE)
 - NLTK, newspaper (Natural language processing for text summarization and sentiment analysis)
 
 ## Project Structure and how to run this project:
 
-1. Download/Fork and clone the repository on your local machine that has Anaconda installed that is best suited for running or visualizing this project.You just need to launch DataAnalysisNewsWire.ipynb and run all the cells to view the results. Else, you need to have python with the above libaries installed and need to run the script DataAnalysisNewsWire.py inside python_run folder.
+1. Download/Fork and clone the repository on your local machine that has Anaconda installed that is best suited for running or visualizing this project.You just need to launch DataAnalysisNewsWire.ipynb and run all the cells to view the results. Else, you need to have python with the above libraies installed and need to run the script DataAnalysisNewsWire.py inside python_run folder.
 2. There is a newspaper.json file that consists of all the newsites and categories you want to scrape the data from. As this is extensible the sites can be added without touching the code base.
 3. Similarly, there is config.json file that has all the basic configurations that can help you extract data/ modify defaults as per the 
 project requirements and this too is extensible.
@@ -24,7 +25,15 @@ project requirements and this too is extensible.
 
 ## Project features:
 
+1. Configurable files like config,timezones for choosing the defaults for the program.
+2. Web scraping from any website link in the configurable.
+3. Text summarization of each article.
+4. Sentiment Analysis of each article.
+5. Date and Timezone preprocessing.
+6. Visualizations like 
+
 ## Assumptions:
+
 1. The data quality could be improved more with various filters and edge cases. Limitations of data quality do exists.
 2. The visualizations plotted here are minimilistic and can be improved as per requirement. 
 3. Inline commenting provided to get a detailed explanation of the code.
