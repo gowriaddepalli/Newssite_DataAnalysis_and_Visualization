@@ -17,7 +17,7 @@ A python project that scrapes news website data and does analysis based on it.
 2. There is a newspaper.json file that consists of all the newsites and categories you want to scrape the data from. As this is extensible the sites can be added without touching the code base.
 3. Similarly, there is config.json file that has all the basic configurations that can help you extract data/ modify defaults as per the 
 project requirements and this too is extensible.
-4. The same is for timezones.txt that contains a list of timezones to be fetched and is extensible as per need.
+4. The same is for timezones.json that contains a list of timezones to be fetched and is extensible as per need.
 5. newsdata.csv is the file containing the processed and structured data extracted using beautifulSoup from the news websites.
 6. You can view the visualizations in the IPython notebook itself.
 7. The dates from which the data can be filtered are configured in config.json. The gap kept in the configurable default date is 7 days.
