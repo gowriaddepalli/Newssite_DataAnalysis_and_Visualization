@@ -22,7 +22,7 @@ project requirements and this too is extensible.
 6. You can view the visualizations in the IPython notebook itself.
 
 ## Assumptions:
-
+1. The data quality could be improved more with various filters and edge cases. Limitations of data quality do exists.
 
 ## Observations and Issues faced:
 
