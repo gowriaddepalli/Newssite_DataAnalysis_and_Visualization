@@ -9,7 +9,7 @@ A python project that scrapes news website data and does analysis based on it.
 - Markdown (Documentation)
 - Git( Version Control)
 - Anaconda Jupyter Notebook (IDE)
-- NLTK, newspaper (Natural language processing)
+- NLTK, newspaper (Natural language processing for text summarization and sentiment analysis)
 
 ## Project Structure and how to run this project:
 
@@ -21,6 +21,8 @@ project requirements and this too is extensible.
 5. newsdata.csv is the file containing the processed and structured data extracted using beautifulSoup from the news websites.
 6. You can view the visualizations in the IPython notebook itself.
 7. The dates from which the data can be filtered are configured in config.json. The gap kept in the configurable default date is 7 days.
+
+## Project features:
 
 ## Assumptions:
 1. The data quality could be improved more with various filters and edge cases. Limitations of data quality do exists.
