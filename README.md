@@ -40,18 +40,21 @@ project requirements and this too is extensible.
 3. Inline commenting provided to get a detailed explanation of the code.
 4. All dates mentioned should be in abbreviated form for the code to run properly: i.e 'Aug', 'Sept', 'Feb' etc. 
 5. Time format is 24 hours.
+6. To get the similar visualizations and for best results configure the date_to the latest date and the date from to 7 days before it as sscraping depends on it.
 
 ## Observations and Issues faced:
 
 1. The timezone pytz module does not recognize the timezones correctly.
 2. To improve accuracy of the data visualizations/ analysis, improve the data feed by scraping large number of data. The anomaly here is since we start scraping data from the main web page, and if the dates given to be analyzed are historical and the pages scraped are few, we might not get the data, we could either improve the scraping size or if the website provided us to send parameters in URL itself of the dates, we could scrape out those webpages only, but these scripts work only for website with normal URL that does not send any query over HTTP. 
+3. Increasing the pages for scraping can cause socket opening issues after a certain time for huge amount of data, because a single page object consists a huge amount of data. This can cause issues in the visualizations especially related to dates/time.
+5. Visualizations have been forced to be on minimal data through filtering for the sake of clarity.
 
 ## Future Extensions & Possibilities:
 
 1. Recommending similar articles using KMeans clustering.
 2. Social Media Analytics of how the article is being percieved near the Social Media Icons.
 3. Fake news detection/ Article source trust and reliability detection.
-4. Plotting on a world map if we can get the latitude and longitude of the location.
+4. Plotting on a world map if we can get the latitude and longitude of the location of all cities.
 
  > A chrome extension having these features can be made for giving the output. The config file can be used for making the fields in the User Interface be it a web app/desktop app.
  
