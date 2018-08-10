@@ -41,6 +41,7 @@ project requirements and this too is extensible.
 4. All dates mentioned should be in abbreviated form for the code to run properly: i.e 'Aug', 'Sept', 'Feb' etc. 
 5. Time format is 24 hours.
 6. To get the similar visualizations and for best results configure the date_to the latest date and the date from to 7 days before it as sscraping depends on it.
+7. To check the variable values uncomment the print statements provided in the code.
 
 ## Observations and Issues faced:
 
