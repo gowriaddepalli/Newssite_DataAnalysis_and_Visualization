@@ -38,7 +38,8 @@ project requirements and this too is extensible.
 1. The data quality could be improved more with various filters and edge cases. Limitations of data quality do exists.
 2. The visualizations plotted here are minimilistic and can be improved as per requirement. 
 3. Inline commenting provided to get a detailed explanation of the code.
-4. All dates mentioned should be in abbreviated form for the code to run properly: i.e 'Aug', 'Sept', 'Feb' etc.
+4. All dates mentioned should be in abbreviated form for the code to run properly: i.e 'Aug', 'Sept', 'Feb' etc. 
+5. Time format is 24 hours.
 
 ## Observations and Issues faced:
 
