@@ -30,7 +30,7 @@ project requirements and this too is extensible.
 2. Web scraping from any website link in the configurable.
 3. Text summarization of each article.
 4. Sentiment Analysis of each article.
-5. Date and Timezone preprocessing.
+5. Date and Timezone preprocessing. Converting from different timezones to UTC.
 6. Visualizations like  to understand the distribution of data better.
 
 ## Assumptions:
