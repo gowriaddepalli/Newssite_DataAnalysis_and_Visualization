@@ -22,6 +22,7 @@ project requirements and this too is extensible.
 5. newsdata.csv is the file containing the processed and structured data extracted using beautifulSoup from the news websites.
 6. You can view the visualizations in the IPython notebook itself.
 7. The dates from which the data can be filtered are configured in config.json. The gap kept in the configurable default date is 7 days.
+8. The Project consists of a PDF containing the outputs that run in my environment. It can be used to match or get the code running up in other environment.
 
 ## Project features:
 
@@ -30,13 +31,14 @@ project requirements and this too is extensible.
 3. Text summarization of each article.
 4. Sentiment Analysis of each article.
 5. Date and Timezone preprocessing.
-6. Visualizations like 
+6. Visualizations like  to understand the distribution of data better.
 
 ## Assumptions:
 
 1. The data quality could be improved more with various filters and edge cases. Limitations of data quality do exists.
 2. The visualizations plotted here are minimilistic and can be improved as per requirement. 
 3. Inline commenting provided to get a detailed explanation of the code.
+4. All dates mentioned should be in abbreviated form for the code to run properly: i.e 'Aug', 'Sept', 'Feb' etc.
 
 ## Observations and Issues faced:
 
