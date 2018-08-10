@@ -49,6 +49,7 @@ project requirements and this too is extensible.
 2. To improve accuracy of the data visualizations/ analysis, improve the data feed by scraping large number of data. The anomaly here is since we start scraping data from the main web page, and if the dates given to be analyzed are historical and the pages scraped are few, we might not get the data, we could either improve the scraping size or if the website provided us to send parameters in URL itself of the dates, we could scrape out those webpages only, but these scripts work only for website with normal URL that does not send any query over HTTP. 
 3. Increasing the pages for scraping can cause socket opening issues after a certain time for huge amount of data, because a single page object consists a huge amount of data. This can cause issues in the visualizations especially related to dates/time.
 5. Visualizations have been forced to be on minimal data through filtering for the sake of clarity.
+6. There is an issue of differentiating between lower and upper case.
 
 ## Future Extensions & Possibilities:
 
