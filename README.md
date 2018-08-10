@@ -51,6 +51,7 @@ project requirements and this too is extensible.
 1. Recommending similar articles using KMeans clustering.
 2. Social Media Analytics of how the article is being percieved near the Social Media Icons.
 3. Fake news detection/ Article source trust and reliability detection.
+4. Plotting on a world map if we can get the latitude and longitude of the location.
 
  > A chrome extension having these features can be made for giving the output. The config file can be used for making the fields in the User Interface be it a web app/desktop app.
  
