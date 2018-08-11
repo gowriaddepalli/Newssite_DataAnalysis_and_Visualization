@@ -1,0 +1,16 @@
+{
+  "newspaper": "newswire",
+  "category_selected": "all_categories",
+  "date_range_from": "Jun 17, 2018",
+  "date_range_to": "Aug 11, 2018",
+  "default_time": "00:00",
+  "default_timezone":"UTC",
+  "default_city":"Boston",
+  "default_country":"USA",
+  "default_state":"Massachusetts.",
+  "default_source" : "Unknown",
+  "default_data" : "Unknown",
+  "default_heading" : "Unknown",
+  "default_date": "Aug 3, 2018 21:00 UTC",
+  "limit_Webpages" : 40
+}

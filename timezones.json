@@ -1,0 +1,16 @@
+{
+	"CST": "tz.gettz('US/Central')",
+	"CDT": "tz.gettz('US/Central')",
+	"EST": "tz.gettz('US/Eastern')",
+	"EDT": "tz.gettz('US/Eastern')",
+	"MST": "tz.gettz('US/Mountain')",
+	"MDT": "tz.gettz('US/Mountain')",
+	"PST": "tz.gettz('US/Pacific')",
+	"PDT": "tz.gettz('US/Pacific')",
+	"BST": "tz.gettz('Europe/London')",
+	"HKT": "tz.gettz('Asia/Hong_Kong')",
+	"EEST": "tz.gettz('Europe/Warsaw')",
+	"CEST": "tz.gettz('Europe/Paris')",
+	"HST":  "tz.gettz('US/Hawaii')",
+    "SGT": "tz.gettz('Asia/Singapore')"
+}

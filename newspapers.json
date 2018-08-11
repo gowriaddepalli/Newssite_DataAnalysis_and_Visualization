@@ -1,0 +1,12 @@
+{
+  "newswire": {
+    "link": "https://www.newswire.com/",
+    "categories": {
+    "all_categories":"newsroom",
+    "business":"newsroom/business",
+    "entertainment":"newsroom/arts-and-entertainment",
+    "health":"newsroom/medicine-and-healthcare",
+    "finance":"newsroom/business-finance"
+    }
+  }
+}
